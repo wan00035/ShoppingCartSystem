@@ -1,0 +1,238 @@
+
+*{
+    
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    
+}
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.logo img {
+    background-color: #ffffff;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    }
+
+.menu a {
+        /* 超链接样式 */
+        text-transform: uppercase;
+        padding: 10px 0px;
+        display: inline-block;
+        font-size: 16px;
+        font-family: Open Sans;
+        text-transform: lowercase;
+        color: #4a4a4a;
+        text-transform: uppercase;
+        font-family: 'Courier New', Courier, monospace;
+}
+.menu{
+    float: left;
+    width: 200px;
+    height: 40px;
+    text-align: center;
+    line-height: 4opx;
+    padding-left: 80px;
+    padding-right: 50px;
+    background-color: #dab3c9;
+}
+ul{
+    display: block; 
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+
+
+h1{
+
+    padding-bottom: 10px;
+    padding-left: 50px;
+    font-size: 28px;
+    color: #dab3c9;
+
+    
+}
+.title>p{
+    font-size: 18px;
+    padding-left: 50px;
+}
+
+
+
+
+
+
+.photo{
+    float: right;
+    padding: 0;
+    margin: 0; 
+}
+
+.form{
+    padding: 10px;
+}
+input{
+    padding: 5px;
+}
+input[type=text],input[type=email]{
+    width: 220px;
+}
+.intakeForm{
+    width: 1000px;
+    padding: 30px;
+    font-size: 20px;
+}
+form{
+    padding-bottom: 10px;
+}
+.form{
+    display: flex;
+}
+.leftbox{
+    width: 580px;
+    height: 100%;
+    float: left;
+}
+.rightbox{
+    height: 100%;
+    width: 580px;
+  
+
+}
+.subbox{
+    display: flex;
+    gap: 2rem;
+   
+}
+
+
+.deliveried{
+    display: flex;
+    gap: 2rem;
+}
+.deliveried label{
+    color: grey;
+}
+.deliveried label, .deliveried input{
+    vertical-align: middle;
+    text-align: center;
+    
+}
+
+.time{
+    display: flex;
+    gap: 2.5rem;
+}
+.time input{
+    width: 80px;
+}
+
+.call label,.call input[type="radio"]{
+    margin: 6px 0 ;
+}
+.requirements{
+    padding: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.493);
+}
+.requirements label,.requirements input[type="radio"]{
+    margin: 6px 0;
+}
+
+#describe{
+    display:none
+}
+#specialreq{
+    display:none
+}
+#submit{
+    background-color:#dab3c9;
+    color: white;
+    border-radius: 10px;
+    font-size: 16px;
+    width: 100px;
+    border: none;
+    margin-bottom: 30px;
+}
+#reset{
+    background-color:#dab3c9;
+    color: white;
+    border-radius: 10px;
+    font-size: 16px;
+    width: 100px;
+    border: none;
+    margin-bottom: 30px;
+}
+
+
+
+footer{
+    color: white;
+    text-align: right;
+    padding: 15px;
+    vertical-align: middle;
+    position: relative;
+    margin-top: -100px;
+    clear: both;
+}
+footer img{
+    float: left;
+    margin: 15px;
+    
+    height: 65px;
+    vertical-align: middle;
+}
+address, nav a {
+    font-style: normal;
+}
+
+
+.alert{
+    color:red;
+}
+    
+.cart{
+    float: right;
+}
+
+table {
+    width: 110%;
+    border-collapse: collapse;
+  }
+  
+table td, table th {
+    border: 1px solid;
+    padding: 8px;
+    text-align: center;
+  }
+table {
+    width: 100%;
+    height: 80%;
+    border-collapse: collapse;
+  }
+  
+table td, table th {
+    border: 1px solid pink;
+    text-align: center;
+  }
+table button{
+    width: 80px;
+    background-color:#dab3c9;
+    color: white;
+    border: #dab3c9;
+    
+
+}
+
+

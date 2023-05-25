@@ -1,0 +1,27 @@
+[
+    {
+      "name": "Chocolate Ice Cream",
+      "value": 30,
+      "image":"images/cho.jpeg"
+
+    },
+    {
+      "name": "Mango Ice Cream",
+      "value": 20,
+      "image":"images/mango.jpeg"
+
+    },
+    {
+      "name": "Vanilla Ice Cream",
+      "value": 30,
+      "image":"images/Vanilla.jpeg"
+
+    },
+    {
+      "name": "Strawberry Ice Cream",
+      "value": 40,
+      "image":"images/stew.jpeg"
+
+    }
+  ]
+  

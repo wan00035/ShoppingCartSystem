@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <title>online shop</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/logo.png" alt="logo">
+        </div>
+    </header>
+    <nav>
+        <ul class="ullist">
+            <li class="menu"> <a href="#">HOME</a>
+            </li>
+            <li class="menu"> <a href="#">SHOP</a>
+            </li>
+            <li class="menu"> <a href="#">NEWS</a>
+            </li>
+            <li class="menu"><a href="#">CONTACT</a>
+        </ul>
+    </nav>
+    <br>
+    <br>
+    <br>
+    <section class="title">
+        <h1>WLCOME TO MY ICE CREAM SHOP </h1>
+    <p>Please input your infomation, then join your shopping!</p>
+    </section>
+    
+    <br>
+    
+    <main>
+        
+        <div class="intakeForm">
+
+            <form name="profileForm" method="post">
+                <div class="form">
+                    <div class="leftbox">
+                        <div class="subbox">
+                            <div class="subleft">
+                                <label for="firstname">FIRST NAME</label><br>
+                                <input type="text" id="firstname" name="fname" placeholder="xiaona"><br>
+                                <span id="firstNameWarning" class="alert"></span><br>
+                            </div>
+                            
+                            <div class="subright">
+                                <label for="lastname">LAST NAME</label><br>
+                                <input type="text" id="lastname" name="lname" placeholder="wan"><br>
+                                <span id="lastNameWarning" class="alert"></span><br>
+                            </div>
+                        </div>
+                        <p>Available Delevery Date</p>
+                        <div class="deliveried">
+                            <div>
+                                <label for="mon">Mon.</label><br>
+                                <input type="radio" id="mon" name="delivery" value="Monday">
+                            </div>
+                            <div>
+                                <label for="tue">Tue.</label><br>
+                                <input type="radio" id="mon" name="delivery" value="Tueday">
+                            </div>
+                            <div>
+                                <label for="wed">Wed.</label><br>
+                                <input type="radio" id="mon" name="delivery" value="Wedday">
+                            </div>
+                            <div>
+                                <label for="thu">Thu.</label><br>
+                                <input type="radio" id="mon" name="delivery" value="Thuday">
+                            </div>
+                            <div>
+                                <label for="fri">Fir</label><br>
+                                <input type="radio" id="mon" name="delivery" value="Friday">
+                            </div>
+                            <div id="saturday">
+                                <label for="sat">Sat.</label><br>
+                                <input type="radio" id="mon" name="delivery" value="Satay">
+                            </div>
+                            <div id="sunday">
+                                <label for="sun">Sun.</label><br>
+                                <input type="radio" id="mon" name="delivery" value="Sunday">
+                            </div>
+
+
+                        </div>
+                        <span id="deliveryWarning" class="alert"></span><br>
+
+
+
+                        <div class="time">
+                            <div class="arrivetime">
+                                <label for="timearrive">Time Arrive</label><br>
+                                <select name="timearrive" id="timearrive">
+                                    <option value="" disabled selected>Select time range</option>
+                                    <option value="6:00">6:00 AM</option>
+                                    <option value="6:30">6:30 AM</option>
+                                    <option value="7:00">7:00 AM</option>
+                                    <option value="7:30">7:30 AM</option>
+                                    <option value="8:00">8:00 AM</option>
+                                    <option value="8:30">8:30 AM</option>
+                                    <option value="9:00">9:00 AM</option>
+                                    <option value="9:30">9:30 AM</option>
+                                    <option value="10:00">10:00 AM</option>
+                                    <option value="10:30">10:30 AM</option>
+                                    <option value="11:00">11:00 AM</option>
+                                    <option value="11:30">11:30 AM</option>
+                                    <option value="12:00">12:00 PM</option>
+
+
+
+                                </select><br>
+                                <span id="arriveTimeWarning" class="alert"></span>
+                            </div>
+                            <div class="leavetime">
+                                <label for="leavetime">Time Arrive Range</label><br>
+                                <select name="timeLeave" id="timeLeave">
+
+                                    <option value="10:00">10:00 AM</option>
+                                    <option value="10:30">10:30 AM</option>
+                                    <option value="11:00">11:00 AM</option>
+                                    <option value="11:30">11:30 AM</option>
+                                    <option value="12:00">12:00 PM</option>
+                                    <option value="12:30">12:30 PM</option>
+                                    <option value="13:00">13:00 PM</option>
+                                    <option value="13:30">13:30 PM</option>
+                                    <option value="14:00">14:00 PM</option>
+                                    <option value="14:30">14:30 PM</option>
+                                    <option value="15:00">15:00 PM</option>
+                                    <option value="15:30">15:30 PM</option>
+                                    <option value="16:00">16:00 PM</option>
+                                    <option value="16:30">16:30 PM</option>
+                                    <option value="17:00">17:00 PM</option>
+                                    <option value="17:30">17:30 PM</option>
+                                    <option value="18:00">18:00 PM</option>
+                                </select><br>
+                                <span id="leaveTimeWarning" class="alert"></span>
+                            </div>
+                        </div>
+                        <span></span><br>
+                        <div class="rightbox">
+                            <p>Delivery ways </p>
+                            <div class="requirements">
+                                <div>
+                                    <input type="radio" id="door" name="door" value="Put it on the front door" checked
+                                        onclick="">
+                                    <label for="door">Put it on the front door</label><br>
+                                </div>
+                                <div>
+                                    <input type="radio" id="garage" name="door" value="Put it on the garage" onclick="">
+                                    <label for="garage">Put it on the garage </label><br>
+                                </div>
+                                <div>
+                                    <input type="radio" id="garage" name="door" value="Put it in the box" onclick="">
+                                    <label for="garage"> Put it in the box</label><br>
+                                </div>
+                       
+                               
+    
+                            </div>
+
+                        <div class="call">
+                            <input type="checkbox" id="before" name="before" value="Call before Arrival">
+                            <label for="before">Call Before Arrival</label><br>
+
+                            <input type="checkbox" id="special" name="special" value="Special Requirements:" onclick="myFunction2()">
+                            <label for="special">Special Requirements</label><br>
+                            <div id="specialreq">
+                                <label for="describecall">Describe Requirements</label><br>
+                                <input type="text" id="describecall" placeholder="PLEASE BE CAREFUL"><br>
+                                <span id="describeCallWarning" class="alert"></span><br>
+
+                            </div>
+
+
+                        </div>
+
+                       
+                    </div>
+                    <br>
+                    <br>
+                    <section>
+                        <label for="subtotal">Your total($CAD)</label>
+                        <input type="text" name="subtotal" id="subtotal" disabled>
+                      </section>
+                    <div class="submit">
+                        <input type="submit" value="Submit" name="submitBtn" id="submit">
+                        <input type="reset"  value="reset"  name="resetBtn"  id="reset">
+                    </div>
+                   
+                </div>
+                
+                <div class="rightbox">
+                    <label for="address">Address</label><br>
+                    <input type="text" id="address" placeholder="1385 Woodroffe Ave"><br>
+                    <span id="addressWarning" class="alert"></span><br>
+
+                    <label for="daytimephone">Daytime Phone</label><br>
+                    <input type="tel" id="daytimephone" placeholder="(123)456-7890"><br>
+                    <span id="daytimePhoneWarning" class="alert"></span><br>
+
+                    <label for="email">Email</label><br>
+                    <input type="email" id="email" placeholder="someone@gmail.com"><br>
+                    <span id="emailWarning" class="alert"></span><br>
+                    
+                    <span></span><br>
+                   
+                </div>
+                
+            
+                
+
+            </form>
+        </div>
+        <table>
+        </table>
+
+  
+
+        </section>
+        <script src="scripts/validation.js"></script>
+        <script src="scripts/events.js"></script>
+        <script src="scripts/main.js"></script>
+
+    </main>
+    
+
+
+</body>
+
+</html>
